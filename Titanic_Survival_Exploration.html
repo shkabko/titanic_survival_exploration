@@ -13294,7 +13294,11 @@ Make sure to keep track of the various features and conditions you tried before 
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><strong>Answer</strong>: <em>Replace this text with your answer to the question above.</em></p>
+<p>What features did you look at? Age, SibSp and Pclass
+Were certain features more informative than others? Yes. SibSp for woman, Age and Pclass for male.
+Which conditions did you use to split the survival outcomes in the data? passenger['SibSp'] &lt;= 3 for woman, (passenger['Age'] &lt;= 13), (33 &lt; passenger['Age'] &lt; 37) and (passenger['Pclass'] &lt; 2) for male
+If you performed a preliminary computation or visualization please describe your steps, etc. I used visualisations of  survival for above mentioned conditions and analized mode positions. Then I manually typed the boundaries for higher predictions.
+Predictions have an accuracy of 80.58%.</p>
 
 </div>
 </div>
